@@ -1,0 +1,34 @@
+{
+  "name": "simadu-api",
+  "version": "1.0.0",
+  "description": "SIMADU API — Sistem Layanan Informasi dan Pengaduan Mahasiswa (UTS Web Service Engineering, UIN Antasari Banjarmasin)",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node --watch server.cjs",
+    "test": "node tests/simadu.test.cjs"
+  },
+  "keywords": [
+    "rest-api",
+    "express-5",
+    "jwt",
+    "swagger",
+    "openapi",
+    "simadu",
+    "wse"
+  ],
+  "author": "Ahmad Padla Kamal (240104040185 - TI24B)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
